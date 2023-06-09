@@ -13,7 +13,7 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "13102bb4-cc31-449a-bb82-a5c9d03a7ef5")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PublisherName", "User Name")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "ui-maui-youtube")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "YouTube")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Version", "1.0.0.1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ui-maui-youtube")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
