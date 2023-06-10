@@ -1,4 +1,5 @@
-﻿namespace ui_maui_youtube;
+﻿
+namespace ui_maui_youtube;
 
 public partial class App : Application
 {
