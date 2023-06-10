@@ -8,7 +8,7 @@
     <DefaultDevice>Nexus_6_API_31</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="AppShell.xaml">
+    <MauiXaml Update="Views\StartPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

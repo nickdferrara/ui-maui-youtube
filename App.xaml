@@ -48,7 +48,6 @@
             <Setter Property="HorizontalOptions" Value="Fill" />
         </Style>
 
-
         <!-- CollectionView Styles -->
         <Style TargetType="CollectionView" ApplyToDerivedTypes="True">
             <Setter Property="Margin" Value="0" />

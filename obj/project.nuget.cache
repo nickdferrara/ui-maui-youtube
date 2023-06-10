@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dJqllWNWjDZQ/pUISOBFgQufA2Lgxb6l5R1lIDX09vOcpRUmWGimRuDrvWqNGtSX4xyk9On+I3ZOlsj0J/b8IQ==",
+  "dgSpecHash": "e85xwzh5B+4SXk0FMTQ+GCOLOsiGkE4WU/mGxthyrH8ejbMyG4Sm0TMNlc8jkHo4PQPjEYTeGsuc2uDGfnnPwQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\nickd\\workspaces\\ui-maui-youtube\\ui-maui-youtube.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nickd\\.nuget\\packages\\communitytoolkit.maui\\2.0.0\\communitytoolkit.maui.2.0.0.nupkg.sha512",
+    "C:\\Users\\nickd\\.nuget\\packages\\communitytoolkit.maui.core\\2.0.0\\communitytoolkit.maui.core.2.0.0.nupkg.sha512",
     "C:\\Users\\nickd\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\nickd\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\nickd\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
