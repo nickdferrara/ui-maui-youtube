@@ -34,6 +34,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ui_maui_youtube.ViewContro
 build_metadata.AdditionalFiles.TargetPath = ViewControls\Common\LoadingIndicator.xaml
 build_metadata.AdditionalFiles.RelativePath = ViewControls\Common\LoadingIndicator.xaml
 
+[C:/Users/nickd/workspaces/ui-maui-youtube/Views/Base/PageBase.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ui_maui_youtube.Views.Base.PageBase.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Base\PageBase.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Base\PageBase.xaml
+
 [C:/Users/nickd/workspaces/ui-maui-youtube/Views/StartPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ui_maui_youtube.Views.StartPage.xaml
