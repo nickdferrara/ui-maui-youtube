@@ -354,3 +354,5 @@ MigrationBackup/
 .ionide/
 
 /Models/Constants.cs
+
+bin/

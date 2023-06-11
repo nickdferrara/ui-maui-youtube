@@ -72,11 +72,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Helpers\" />
 	  <Folder Include="IViews\" />
 	  <Folder Include="Resources\Styles\" />
 	  <Folder Include="ViewControls\" />
-	  <Folder Include="Services\" />
 	</ItemGroup>
 
 	<ItemGroup>
