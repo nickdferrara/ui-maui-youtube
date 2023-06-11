@@ -10,7 +10,6 @@
         <mct:StatusBarBehavior StatusBarColor="#262626" />
     </ContentPage.Behaviors>
 
-
     <VerticalStackLayout>
         <Label 
             Text="Welcome to .NET MAUI!"
