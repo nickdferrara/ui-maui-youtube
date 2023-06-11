@@ -1,6 +1,9 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Maui.Controls.Compatibility.Hosting;
 using Microsoft.Maui.LifecycleEvents;
+using ui_maui_youtube.IServices;
+using ui_maui_youtube.Services;
+using ui_maui_youtube.ViewModels;
 
 namespace ui_maui_youtube;
 
@@ -35,6 +38,21 @@ public static class MauiProgram
 #endif
              });
 
+        RegisterAppServices(builder.Services);
+
         return builder.Build();
+    }
+
+    private static void RegisterAppServices(IServiceCollection services)
+    {
+        //Add Platform specific Dependencies
+        services.AddSingleton<IConnectivity>(Connectivity.Current);
+
+        //Register API Service
+        services.AddSingleton<IApiService, YoutubeService>();
+
+        //Register View Models
+        services.AddSingleton<StartPageViewModel>();
+
     }
 }
