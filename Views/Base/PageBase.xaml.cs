@@ -124,6 +124,15 @@ public partial class PageBase : ContentPage
 
     public PageBase()
 	{
-		InitializeComponent();
+        //Hide the Xamarin Forms build in navigation header
+        NavigationPage.SetHasNavigationBar(this, false);
+
+        //Set Page Mode
+        SetPageMode(PageMode.None);
+
+        //Set Content Display Mode
+        SetContentDisplayMode(ContentDisplayMode.NoNavigationBar);
+
+        InitializeComponent();
 	}
 }
