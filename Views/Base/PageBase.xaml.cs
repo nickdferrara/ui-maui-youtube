@@ -84,6 +84,7 @@ public partial class PageBase : ContentPage
         }
     }
 
+
     public static readonly BindableProperty ContentDisplayModeProperty = BindableProperty.Create(
         nameof(ContentDisplayMode),
         typeof(ContentDisplayMode),
@@ -122,8 +123,11 @@ public partial class PageBase : ContentPage
     }
     #endregion
 
+
     public PageBase()
-	{
+    {
+        InitializeComponent();
+
         //Hide the Xamarin Forms build in navigation header
         NavigationPage.SetHasNavigationBar(this, false);
 
@@ -132,7 +136,5 @@ public partial class PageBase : ContentPage
 
         //Set Content Display Mode
         SetContentDisplayMode(ContentDisplayMode.NoNavigationBar);
-
-        InitializeComponent();
-	}
+    }
 }

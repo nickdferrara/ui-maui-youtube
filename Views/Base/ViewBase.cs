@@ -1,13 +1,16 @@
 ﻿using ui_maui_youtube.Helpers;
 using ui_maui_youtube.ViewModels.Base;
+using ui_maui_youtube.Views.Base;
 
 namespace ui_maui_youtube.Views.Base
 {
     public class ViewBase<TViewModel> : PageBase where TViewModel : AppViewModelBase
     {
         protected bool _isLoaded = false;
+
         protected TViewModel ViewModel { get; set; }
         protected object ViewModelParameters { get; set; }
+
         protected event EventHandler ViewModelInitialized;
 
         public ViewBase() : base()
@@ -38,5 +41,10 @@ namespace ui_maui_youtube.Views.Base
                 _isLoaded = true;
             }
         }
+
     }
+
 }
+
+
+

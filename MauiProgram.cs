@@ -53,6 +53,5 @@ public static class MauiProgram
 
         //Register View Models
         services.AddSingleton<StartPageViewModel>();
-
     }
 }

@@ -29800,6 +29800,18 @@ namespace ui_maui_youtube
 			// aapt resource value: 0x7F0D0003
 			public const int appicon_round = 2131558403;
 			
+			// aapt resource value: 0x7F0D0004
+			public const int icnhamburger = 2131558404;
+			
+			// aapt resource value: 0x7F0D0005
+			public const int icnhamburger_background = 2131558405;
+			
+			// aapt resource value: 0x7F0D0006
+			public const int icnhamburger_foreground = 2131558406;
+			
+			// aapt resource value: 0x7F0D0007
+			public const int icnhamburger_round = 2131558407;
+			
 			static Mipmap()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
