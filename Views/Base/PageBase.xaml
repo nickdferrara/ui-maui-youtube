@@ -9,7 +9,7 @@
     BackgroundColor="{StaticResource PageBackgroundColor}">
 
     <Grid
-        IgnoreSafeArea="True">
+        IgnoreSafeArea="False">
         <Grid.RowDefinitions>
             <RowDefinition Height="{OnPlatform Android=16, iOS=36, Default=0}" />
             <RowDefinition Height="Auto" />
@@ -28,7 +28,7 @@
         <!-- Grid to contain Page Content -->
         <Grid
             x:Name="PageContentGrid"
-            IgnoreSafeArea="True"/>
+            IgnoreSafeArea="False"/>
 
         <!-- Busy Indicator -->
         <basecontrols:LoadingIndicator
@@ -43,7 +43,7 @@
             Grid.Row="1"
             ColumnDefinitions="56,*,56"
             Margin="0,4"
-            IgnoreSafeArea="True">
+            IgnoreSafeArea="False">
 
             <!-- Icons for Left Side -->
             <ImageButton
