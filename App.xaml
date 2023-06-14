@@ -52,7 +52,7 @@
         <!-- CollectionView Styles -->
         <Style TargetType="CollectionView" ApplyToDerivedTypes="True">
             <Setter Property="Margin" Value="0" />
-            <Setter Property="ItemSizingStrategy" Value="MeasureFirstItem" />
+            <Setter Property="ItemSizingStrategy" Value="MeasureAllItems" />
             <Setter Property="VerticalOptions" Value="Fill" />
             <Setter Property="HorizontalOptions" Value="Fill" />
             <Setter Property="BackgroundColor" Value="Transparent" />

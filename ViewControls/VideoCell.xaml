@@ -15,7 +15,9 @@
 
         <Border.GestureRecognizers>
             <TapGestureRecognizer
-                Command="{Binding Path=NavigateToVideoDetailsPageCommand, Source={RelativeSource AncestorType={x:Type viewmodels:StartPageViewModel}}, Mode=OneWay}"
+                Command="{Binding Path=NavigateToVideoDetailsPageCommand, 
+                Source={RelativeSource AncestorType={x:Type viewmodels:StartPageViewModel}}, 
+                Mode=OneWay}"
                 CommandParameter="{Binding Id.VideoId}" />
         </Border.GestureRecognizers>
 
@@ -113,9 +115,6 @@
                     VerticalOptions="Center" />
 
             </Grid>
-
         </Grid>
-
     </Border>
-
 </ContentView>

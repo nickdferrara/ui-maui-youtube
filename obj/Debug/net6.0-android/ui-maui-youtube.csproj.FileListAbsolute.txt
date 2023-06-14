@@ -991,10 +991,10 @@ C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\resizetizer\r
 C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\resizetizer\r\mipmap-xxxhdpi\icnhamburger.png
 C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\resizetizer\r\mipmap-xxxhdpi\icnhamburger_background.png
 C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\resizetizer\r\mipmap-xxxhdpi\icnhamburger_foreground.png
-C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\android\typemaps.arm64-v8a.s
-C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\android\environment.arm64-v8a.s
-C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\android\compressed_assemblies.arm64-v8a.s
-C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\android\typemaps.arm64-v8a.o
-C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\android\environment.arm64-v8a.o
-C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\android\compressed_assemblies.arm64-v8a.o
-C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
+C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\android\typemaps.x86_64.s
+C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\android\environment.x86_64.s
+C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\android\compressed_assemblies.x86_64.s
+C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\android\typemaps.x86_64.o
+C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\android\environment.x86_64.o
+C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\android\compressed_assemblies.x86_64.o
+C:\Users\nickd\workspaces\ui-maui-youtube\obj\Debug\net6.0-android\app_shared_libraries\x86_64\libxamarin-app.so
