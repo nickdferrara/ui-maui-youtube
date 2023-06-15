@@ -1,5 +1,6 @@
 ﻿
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using Maui.Apps.Framework.Exceptions;
 using Maui.Apps.Framework.Extensions;
 using System.Collections.ObjectModel;
@@ -88,6 +89,15 @@ namespace ui_maui_youtube.ViewModels
 
             //Add the Videos for Display
             YoutubeVideos.AddRange(videoSearchResult.Items);
+        }
+
+        [RelayCommand]
+        private async Task SearchVideos(string searchQuery)
+        {
+            nextToken = string.Empty;
+            searchTerm = searchQuery.Trim();
+
+            await Search();
         }
     }
 }

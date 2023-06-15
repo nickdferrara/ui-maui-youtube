@@ -22,12 +22,19 @@
         </member>
         <member name="T:ui_maui_youtube.ViewModels.StartPageViewModel">
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:ui_maui_youtube.ViewModels.StartPageViewModel.YoutubeVideos">
             <inheritdoc cref="F:ui_maui_youtube.ViewModels.StartPageViewModel.youtubeVideos"/>
         </member>
         <member name="P:ui_maui_youtube.ViewModels.StartPageViewModel.IsLoadingMore">
             <inheritdoc cref="F:ui_maui_youtube.ViewModels.StartPageViewModel.isLoadingMore"/>
+        </member>
+        <member name="F:ui_maui_youtube.ViewModels.StartPageViewModel.searchVideosCommand">
+            <summary>The backing field for <see cref="P:ui_maui_youtube.ViewModels.StartPageViewModel.SearchVideosCommand"/>.</summary>
+        </member>
+        <member name="P:ui_maui_youtube.ViewModels.StartPageViewModel.SearchVideosCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ui_maui_youtube.ViewModels.StartPageViewModel.SearchVideos(System.String)"/>.</summary>
         </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
             <summary>

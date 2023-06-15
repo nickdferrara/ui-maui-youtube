@@ -10,4 +10,9 @@ public partial class StartPage : ViewBase<StartPageViewModel>
 	{
 		InitializeComponent();
 	}
+
+    void txtSearchQuery_Completed(System.Object sender, System.EventArgs e)
+    {
+		ViewModel.SearchVideosCommand.Execute(txtSearchQuery.Text);
+    }
 }

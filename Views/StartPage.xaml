@@ -65,12 +65,12 @@
                                 Grid.Column="1"
                                 VerticalOptions="Center">
 
-                                <!--<Image.GestureRecognizers>
+                                <Image.GestureRecognizers>
                                     <TapGestureRecognizer
                                         Command="{Binding SearchVideosCommand}"
-                                        CommandParameter="{Binding Path=Text, Source={x:Reference txtSearchQuery}, Mode=OneWay}" />
-
-                                </Image.GestureRecognizers>-->
+                                        CommandParameter="{Binding Path=Text, 
+                                            Source={x:Reference txtSearchQuery}, Mode=OneWay}" />
+                                </Image.GestureRecognizers>
 
                             </Image>
 
@@ -86,6 +86,7 @@
                                 FontSize="16"
                                 TextColor="{StaticResource LightTextColor}"
                                 VerticalTextAlignment="Center"
+                                Completed="txtSearchQuery_Completed"
                                 />
 
                         </Grid>
